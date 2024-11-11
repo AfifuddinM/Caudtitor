@@ -29,3 +29,6 @@ def testCode(request):
 
 def index(request):
     return render(request,'cauditorApp/index.html')
+
+def main(request):
+    return render(request,'cauditorApp/test.html')

@@ -5,5 +5,6 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('', views.index, name='index'),
+    path('fileUpload', views.main, name='main'),
     
 ]+ static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
